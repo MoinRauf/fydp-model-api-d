@@ -5,9 +5,9 @@ import threading
 import signal
 import sys
 
-venti_json_path = r'E:\fydp-last-sem\fydp-model-api-dd\Server\data\d-generated_ventilator_data.json'
-mri_json_path = r'E:\fydp-last-sem\fydp-model-api-dd\Server\data\d-generated_mri_data.json'
-patient_json_path = r'E:\fydp-last-sem\fydp-model-api-dd\Server\data\d-generated_patient_monitor_data.json'
+venti_json_path = r'E:\fydp-last-sem\fydp-model-api\Server\data\d-generated_ventilator_data.json'
+mri_json_path = r'E:\fydp-last-sem\fydp-model-api\Server\data\d-generated_mri_data.json'
+patient_json_path = r'E:\fydp-last-sem\fydp-model-api\Server\data\d-generated_patient_monitor_data.json'
 
 venti_api_url = 'http://127.0.0.1:5000/venti'
 mri_api_url = 'http://127.0.0.1:5000/mri'

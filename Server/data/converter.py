@@ -4,16 +4,16 @@ import os
 
 file_paths = [
     {
-        "csv": r"E:\fydp-last-sem\fydp-model-api-dd\Server\data\d-generated_ventilator_data.csv",
-        "json": r"E:\fydp-last-sem\fydp-model-api-dd\Server\data\d-generated_ventilator_data.json",
+        "csv": r"E:\fydp-last-sem\fydp-model-api\Server\data\d-generated_ventilator_data.csv",
+        "json": r"E:\fydp-last-sem\fydp-model-api\Server\data\d-generated_ventilator_data.json",
     },
     {
-        "csv": r"E:\fydp-last-sem\fydp-model-api-dd\Server\data\d-generated_mri_data.csv",
-        "json": r"E:\fydp-last-sem\fydp-model-api-dd\Server\data\d-generated_mri_data.json",
+        "csv": r"E:\fydp-last-sem\fydp-model-api\Server\data\d-generated_mri_data.csv",
+        "json": r"E:\fydp-last-sem\fydp-model-api\Server\data\d-generated_mri_data.json",
     },
     {
-        "csv": r"E:\fydp-last-sem\fydp-model-api-dd\Server\data\d-generated_patient_monitor_data.csv",
-        "json": r"E:\fydp-last-sem\fydp-model-api-dd\Server\data\d-generated_patient_monitor_data.json",
+        "csv": r"E:\fydp-last-sem\fydp-model-api\Server\data\d-generated_patient_monitor_data.csv",
+        "json": r"E:\fydp-last-sem\fydp-model-api\Server\data\d-generated_patient_monitor_data.json",
     },
 ]
 
