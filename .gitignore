@@ -1,0 +1,43 @@
+# Ignore virtual environment folder (myenv)
+myenv/
+
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variable files
+.env
+.env.*
+.venv/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Log files
+*.log
+
+# Build files (for example, dist or build directories)
+dist/
+build/
+*.egg-info/
+
+# Test directories
+.tox/
+.nox/
+.coverage
+.hypothesis/
+.pytest_cache/
