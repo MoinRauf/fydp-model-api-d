@@ -1,61 +1,138 @@
-import joblib
-import time
+from flask import Blueprint, request, jsonify
 import numpy as np
 import pandas as pd
-from flask import Blueprint, request, jsonify
 from tensorflow.keras.models import load_model
-import threading
+import joblib
+import logging
 
 patient_api = Blueprint('patient_api', __name__)
 
-model_file = 'patient/final-pm-model.h5'
-scaler_file = 'patient/final-pm-scaler.pkl'
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-model = load_model(model_file)
-scaler = joblib.load(scaler_file)
+# Load the trained model
+patient_model = load_model('patient/final-pm-model.h5')
+logger.info("Model loaded successfully.")
 
-features = ['Heart_Rate', 'Blood_Pressure_Systolic', 'Blood_Pressure_Diastolic', 'Oxygen_Saturation', 'Temperature']
+# Load the pre-trained scaler
+scaler = joblib.load('patient/final-pm-scaler.pkl')
+logger.info("Scaler loaded successfully.")
 
-@patient_api.route('/patient', methods=['POST'])
+# Define feature columns
+feature_columns = ['Heart_Rate', 'Blood_Pressure_Systolic', 'Blood_Pressure_Diastolic', 'Oxygen_Saturation', 'Temperature']
+
+
+def reshape_input(input_data):
+    """Reshape input data for LSTM model."""
+    return input_data.reshape((input_data.shape[0], 1, input_data.shape[1]))
+
+def preprocess_input(input_dict):
+    """Preprocess the input data into a DataFrame."""
+    try:
+        missing_fields = set(feature_columns) - set(input_dict.keys())
+        if missing_fields:
+            raise ValueError(f"Missing required fields: {', '.join(missing_fields)}")
+
+        processed_data = pd.DataFrame([input_dict], columns=feature_columns)
+        logger.info(f"Preprocessed data: {processed_data}")
+        return processed_data
+    except Exception as e:
+        logger.error(f"Error in preprocess_input: {e}")
+        raise ValueError(f"Error processing input data: {str(e)}")
+
+def scale_data(input_data):
+    """Scale the input data using the loaded scaler."""
+    try:
+        scaled_data = scaler.transform(input_data)
+        logger.info(f"Scaled data: {scaled_data}")
+        return scaled_data
+    except Exception as e:
+        logger.error(f"Error in scale_data: {e}")
+        raise ValueError(f"Error scaling data: {str(e)}")
+
+def model_predict(input_data):
+    """Make predictions using the loaded model."""
+    try:
+        prediction = patient_model.predict(input_data)
+        logger.info(f"Model prediction: {prediction}")
+        return prediction
+    except Exception as e:
+        logger.error(f"Error in model_predict: {e}")
+        raise ValueError(f"Error making prediction: {str(e)}")
+
+def map_prediction_to_label(prediction):
+    """Map model prediction to a human-readable label."""
+    predicted_class = np.argmax(prediction, axis=1)[0]
+    return 'Malfunction' if predicted_class == 1 else 'Not malfunction'
+
+def batch_predict(input_data_list):
+    """Make predictions for a batch of input data."""
+    try:
+        reshaped_data = np.array([
+            reshape_input(scale_data(preprocess_input(input_data)))
+            for input_data in input_data_list
+        ])
+        predictions = patient_model.predict(np.vstack(reshaped_data))
+        logger.info(f"Batch prediction: {predictions}")
+        return [map_prediction_to_label(pred) for pred in predictions]
+    except Exception as e:
+        logger.error(f"Error in batch_predict: {e}")
+        raise ValueError(f"Error in batch prediction: {str(e)}")
+
+def get_impact_level(time_value):
+    """Categorize the impact level based on time value."""
+    try:
+        time_value = float(time_value)
+        if time_value <= 0 or time_value <= 5:
+            return "Low Impact"
+        elif time_value > 5 and time_value <= 8:
+            return "Moderate Impact"
+        elif time_value > 8:
+            return "High Impact"
+        else:
+            return "Invalid Time"
+    except ValueError:
+        return "Invalid Time"
+
+# Define your routes
+@patient_api.route('/predict', methods=['POST'])
 def predict():
     try:
-        data = request.get_json()
-        parameter = data.get('parameter', 'Unknown')
+        request_data = request.json
+        logger.info(f"Received request data: {request_data}")
 
-        input_data = [data[feature] for feature in features]
+        # Extract 'Time' from input data
+        input_time = request_data.get('Time', None)
 
-        input_df = pd.DataFrame([input_data], columns=features)
+        if isinstance(request_data, list):
+            # Batch prediction
+            predictions = batch_predict(request_data)
+            response_data = {'predictions': predictions}
 
-        input_data_scaled = scaler.transform(input_df)
+            # Get impact level based on time
+            impact_level = get_impact_level(input_time)
+            response_data['impact_level'] = impact_level
 
-        input_data_scaled = input_data_scaled.reshape((1, 1, len(features)))
+        else:
+            # Single prediction
+            preprocessed_data = preprocess_input(request_data)
+            scaled_data = scale_data(preprocessed_data)
+            reshaped_data = reshape_input(scaled_data)
+            raw_prediction = model_predict(reshaped_data)
+            predicted_label = map_prediction_to_label(raw_prediction)
 
-        pred = model.predict(input_data_scaled, verbose=0)
+            response_data = {
+                'prediction': predicted_label
+            }
 
-        predicted_label = np.argmax(pred, axis=1)[0]
+            # Get impact level based on time
+            if input_time:
+                impact_level = get_impact_level(input_time)
+                response_data['impact_level'] = impact_level
 
-        label_mapping = {1: 'Critical', 0: 'Stable'}
-        label_string = label_mapping.get(predicted_label, 'Unknown')
-        
-        def analyze_and_store_data(value):
-            pass  
-
-        thread = threading.Thread(target=analyze_and_store_data, args=(label_string,))
-        thread.start()
-
-        input_label = data['label']
-
-        response = {
-            'prediction': input_label,
-            'parameter': parameter
-        }
-        time.sleep(0.17)
-
-        print("---------Response sent-PATIENT:-------", response)
-
-        return jsonify(response), 200
+        print("---------Response sent-patient:-------", response_data)
+        return jsonify(response_data)
 
     except Exception as e:
-        error_response = {'error': str(e)}
-        print("Error response sent: ", error_response)
-        return jsonify(error_response), 400
+        logger.error(f"Error in /predict endpoint: {e}")
+        return jsonify({'error': str(e)})

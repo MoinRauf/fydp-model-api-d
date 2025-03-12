@@ -1,0 +1,802 @@
+[
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "17",
+        "RF_Power": "126",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "84",
+        "Time": "6"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "19",
+        "RF_Power": "74",
+        "Pulse_Sequence": "1",
+        "Scan_Duration": "24",
+        "Time": "2"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "19",
+        "RF_Power": "94",
+        "Pulse_Sequence": "1",
+        "Scan_Duration": "25",
+        "Time": "3"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "22",
+        "RF_Power": "25",
+        "Pulse_Sequence": "6",
+        "Scan_Duration": "20",
+        "Time": "8"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "24",
+        "RF_Power": "100",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "53",
+        "Time": "2"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "27",
+        "RF_Power": "227",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "33",
+        "Time": "10"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "13",
+        "RF_Power": "193",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "16",
+        "Time": "3"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "27",
+        "RF_Power": "177",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "59",
+        "Time": "4"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "38",
+        "RF_Power": "160",
+        "Pulse_Sequence": "1",
+        "Scan_Duration": "56",
+        "Time": "9"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "24",
+        "RF_Power": "103",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "49",
+        "Time": "5"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "18",
+        "RF_Power": "196",
+        "Pulse_Sequence": "5",
+        "Scan_Duration": "43",
+        "Time": "1"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "39",
+        "RF_Power": "109",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "58",
+        "Time": "6"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "22",
+        "RF_Power": "169",
+        "Pulse_Sequence": "8",
+        "Scan_Duration": "40",
+        "Time": "10"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "25",
+        "RF_Power": "180",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "30",
+        "Time": "3"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "15",
+        "RF_Power": "59",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "58",
+        "Time": "1"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "29",
+        "RF_Power": "50",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "34",
+        "Time": "2"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "21",
+        "RF_Power": "157",
+        "Pulse_Sequence": "8",
+        "Scan_Duration": "33",
+        "Time": "10"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "37",
+        "RF_Power": "176",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "46",
+        "Time": "9"
+    },
+    {
+        "Magnetic_Field_Strength": "4",
+        "Gradient_Strength": "15",
+        "RF_Power": "158",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "47",
+        "Time": "10"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "13",
+        "RF_Power": "211",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "47",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "21",
+        "RF_Power": "171",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "84",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "35",
+        "RF_Power": "153",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "31",
+        "Time": "6"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "36",
+        "RF_Power": "100",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "38",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "26",
+        "RF_Power": "142",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "71",
+        "Time": "8"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "15",
+        "RF_Power": "145",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "53",
+        "Time": "3"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "16",
+        "RF_Power": "190",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "47",
+        "Time": "1"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "22",
+        "RF_Power": "54",
+        "Pulse_Sequence": "1",
+        "Scan_Duration": "52",
+        "Time": "2"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "14",
+        "RF_Power": "69",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "17",
+        "Time": "2"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "12",
+        "RF_Power": "146",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "45",
+        "Time": "5"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "17",
+        "RF_Power": "51",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "21",
+        "Time": "1"
+    },
+    {
+        "Magnetic_Field_Strength": "5",
+        "Gradient_Strength": "13",
+        "RF_Power": "143",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "37",
+        "Time": "9"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "17",
+        "RF_Power": "150",
+        "Pulse_Sequence": "5",
+        "Scan_Duration": "19",
+        "Time": "1"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "18",
+        "RF_Power": "122",
+        "Pulse_Sequence": "8",
+        "Scan_Duration": "58",
+        "Time": "10"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "11",
+        "RF_Power": "182",
+        "Pulse_Sequence": "1",
+        "Scan_Duration": "60",
+        "Time": "3"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "13",
+        "RF_Power": "131",
+        "Pulse_Sequence": "5",
+        "Scan_Duration": "28",
+        "Time": "3"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "27",
+        "RF_Power": "126",
+        "Pulse_Sequence": "5",
+        "Scan_Duration": "24",
+        "Time": "4"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "20",
+        "RF_Power": "152",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "46",
+        "Time": "2"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "19",
+        "RF_Power": "192",
+        "Pulse_Sequence": "5",
+        "Scan_Duration": "25",
+        "Time": "3"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "35",
+        "RF_Power": "135",
+        "Pulse_Sequence": "1",
+        "Scan_Duration": "30",
+        "Time": "6"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "19",
+        "RF_Power": "103",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "82",
+        "Time": "10"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "15",
+        "RF_Power": "102",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "59",
+        "Time": "1"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "21",
+        "RF_Power": "125",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "36",
+        "Time": "1"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "29",
+        "RF_Power": "119",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "42",
+        "Time": "2"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "21",
+        "RF_Power": "100",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "21",
+        "Time": "2"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "21",
+        "RF_Power": "68",
+        "Pulse_Sequence": "1",
+        "Scan_Duration": "15",
+        "Time": "4"
+    },
+    {
+        "Magnetic_Field_Strength": "6",
+        "Gradient_Strength": "27",
+        "RF_Power": "106",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "26",
+        "Time": "10"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "35",
+        "RF_Power": "169",
+        "Pulse_Sequence": "0",
+        "Scan_Duration": "31",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "12",
+        "RF_Power": "116",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "70",
+        "Time": "8"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "18",
+        "RF_Power": "179",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "21",
+        "Time": "5"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "13",
+        "RF_Power": "242",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "42",
+        "Time": "6"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "26",
+        "RF_Power": "165",
+        "Pulse_Sequence": "6",
+        "Scan_Duration": "45",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "19",
+        "RF_Power": "90",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "75",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "18",
+        "RF_Power": "156",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "36",
+        "Time": "1"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "16",
+        "RF_Power": "153",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "90",
+        "Time": "6"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "16",
+        "RF_Power": "217",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "42",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "30",
+        "RF_Power": "100",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "32",
+        "Time": "2"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "36",
+        "RF_Power": "156",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "37",
+        "Time": "8"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "12",
+        "RF_Power": "190",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "29",
+        "Time": "1"
+    },
+    {
+        "Magnetic_Field_Strength": "0",
+        "Gradient_Strength": "37",
+        "RF_Power": "97",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "44",
+        "Time": "9"
+    },
+    {
+        "Magnetic_Field_Strength": "5",
+        "Gradient_Strength": "20",
+        "RF_Power": "121",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "52",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "23",
+        "RF_Power": "74",
+        "Pulse_Sequence": "6",
+        "Scan_Duration": "29",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "15",
+        "RF_Power": "64",
+        "Pulse_Sequence": "1",
+        "Scan_Duration": "56",
+        "Time": "5"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "26",
+        "RF_Power": "213",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "48",
+        "Time": "6"
+    },
+    {
+        "Magnetic_Field_Strength": "5",
+        "Gradient_Strength": "16",
+        "RF_Power": "123",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "29",
+        "Time": "9"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "19",
+        "RF_Power": "174",
+        "Pulse_Sequence": "5",
+        "Scan_Duration": "30",
+        "Time": "5"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "20",
+        "RF_Power": "114",
+        "Pulse_Sequence": "7",
+        "Scan_Duration": "49",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "21",
+        "RF_Power": "132",
+        "Pulse_Sequence": "5",
+        "Scan_Duration": "32",
+        "Time": "3"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "17",
+        "RF_Power": "168",
+        "Pulse_Sequence": "1",
+        "Scan_Duration": "53",
+        "Time": "2"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "18",
+        "RF_Power": "250",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "30",
+        "Time": "8"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "30",
+        "RF_Power": "93",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "40",
+        "Time": "1"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "22",
+        "RF_Power": "215",
+        "Pulse_Sequence": "1",
+        "Scan_Duration": "52",
+        "Time": "9"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "13",
+        "RF_Power": "157",
+        "Pulse_Sequence": "5",
+        "Scan_Duration": "20",
+        "Time": "5"
+    },
+    {
+        "Magnetic_Field_Strength": "6",
+        "Gradient_Strength": "29",
+        "RF_Power": "153",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "47",
+        "Time": "8"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "26",
+        "RF_Power": "57",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "15",
+        "Time": "2"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "23",
+        "RF_Power": "103",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "42",
+        "Time": "4"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "38",
+        "RF_Power": "84",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "47",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "25",
+        "RF_Power": "160",
+        "Pulse_Sequence": "5",
+        "Scan_Duration": "36",
+        "Time": "1"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "17",
+        "RF_Power": "97",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "76",
+        "Time": "9"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "17",
+        "RF_Power": "177",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "22",
+        "Time": "1"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "29",
+        "RF_Power": "99",
+        "Pulse_Sequence": "8",
+        "Scan_Duration": "30",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "29",
+        "RF_Power": "110",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "35",
+        "Time": "2"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "12",
+        "RF_Power": "155",
+        "Pulse_Sequence": "0",
+        "Scan_Duration": "88",
+        "Time": "6"
+    },
+    {
+        "Magnetic_Field_Strength": "4",
+        "Gradient_Strength": "19",
+        "RF_Power": "111",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "25",
+        "Time": "8"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "24",
+        "RF_Power": "164",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "75",
+        "Time": "6"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "17",
+        "RF_Power": "200",
+        "Pulse_Sequence": "7",
+        "Scan_Duration": "35",
+        "Time": "8"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "24",
+        "RF_Power": "188",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "85",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "12",
+        "RF_Power": "164",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "50",
+        "Time": "4"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "39",
+        "RF_Power": "140",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "44",
+        "Time": "6"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "39",
+        "RF_Power": "113",
+        "Pulse_Sequence": "2",
+        "Scan_Duration": "45",
+        "Time": "10"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "28",
+        "RF_Power": "148",
+        "Pulse_Sequence": "5",
+        "Scan_Duration": "32",
+        "Time": "1"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "28",
+        "RF_Power": "108",
+        "Pulse_Sequence": "8",
+        "Scan_Duration": "49",
+        "Time": "8"
+    },
+    {
+        "Magnetic_Field_Strength": "3",
+        "Gradient_Strength": "23",
+        "RF_Power": "81",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "44",
+        "Time": "5"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "21",
+        "RF_Power": "167",
+        "Pulse_Sequence": "6",
+        "Scan_Duration": "35",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "5",
+        "Gradient_Strength": "23",
+        "RF_Power": "117",
+        "Pulse_Sequence": "1",
+        "Scan_Duration": "38",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "21",
+        "RF_Power": "110",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "42",
+        "Time": "3"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "16",
+        "RF_Power": "199",
+        "Pulse_Sequence": "5",
+        "Scan_Duration": "26",
+        "Time": "4"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "22",
+        "RF_Power": "128",
+        "Pulse_Sequence": "3",
+        "Scan_Duration": "71",
+        "Time": "7"
+    },
+    {
+        "Magnetic_Field_Strength": "1",
+        "Gradient_Strength": "28",
+        "RF_Power": "54",
+        "Pulse_Sequence": "1",
+        "Scan_Duration": "44",
+        "Time": "3"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "20",
+        "RF_Power": "140",
+        "Pulse_Sequence": "4",
+        "Scan_Duration": "52",
+        "Time": "5"
+    },
+    {
+        "Magnetic_Field_Strength": "2",
+        "Gradient_Strength": "13",
+        "RF_Power": "141",
+        "Pulse_Sequence": "5",
+        "Scan_Duration": "60",
+        "Time": "1"
+    }
+]

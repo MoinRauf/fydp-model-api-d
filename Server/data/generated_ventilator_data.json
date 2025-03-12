@@ -1,0 +1,802 @@
+[
+    {
+        "Tidal_Volume": "520",
+        "Respiratory_Rate": "14",
+        "FiO2": "44",
+        "PEEP": "13",
+        "PIP": "25",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "640",
+        "Respiratory_Rate": "17",
+        "FiO2": "56",
+        "PEEP": "8",
+        "PIP": "30",
+        "Time": "5"
+    },
+    {
+        "Tidal_Volume": "546",
+        "Respiratory_Rate": "16",
+        "FiO2": "42",
+        "PEEP": "12",
+        "PIP": "22",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "468",
+        "Respiratory_Rate": "15",
+        "FiO2": "50",
+        "PEEP": "14",
+        "PIP": "25",
+        "Time": "9"
+    },
+    {
+        "Tidal_Volume": "654",
+        "Respiratory_Rate": "16",
+        "FiO2": "49",
+        "PEEP": "12",
+        "PIP": "26",
+        "Time": "7"
+    },
+    {
+        "Tidal_Volume": "605",
+        "Respiratory_Rate": "15",
+        "FiO2": "54",
+        "PEEP": "9",
+        "PIP": "20",
+        "Time": "2"
+    },
+    {
+        "Tidal_Volume": "591",
+        "Respiratory_Rate": "19",
+        "FiO2": "60",
+        "PEEP": "5",
+        "PIP": "30",
+        "Time": "1"
+    },
+    {
+        "Tidal_Volume": "474",
+        "Respiratory_Rate": "17",
+        "FiO2": "51",
+        "PEEP": "6",
+        "PIP": "40",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "810",
+        "Respiratory_Rate": "15",
+        "FiO2": "50",
+        "PEEP": "7",
+        "PIP": "27",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "647",
+        "Respiratory_Rate": "17",
+        "FiO2": "60",
+        "PEEP": "10",
+        "PIP": "24",
+        "Time": "2"
+    },
+    {
+        "Tidal_Volume": "577",
+        "Respiratory_Rate": "14",
+        "FiO2": "48",
+        "PEEP": "6",
+        "PIP": "21",
+        "Time": "2"
+    },
+    {
+        "Tidal_Volume": "516",
+        "Respiratory_Rate": "20",
+        "FiO2": "46",
+        "PEEP": "5",
+        "PIP": "25",
+        "Time": "3"
+    },
+    {
+        "Tidal_Volume": "979",
+        "Respiratory_Rate": "18",
+        "FiO2": "52",
+        "PEEP": "7",
+        "PIP": "20",
+        "Time": "8"
+    },
+    {
+        "Tidal_Volume": "983",
+        "Respiratory_Rate": "13",
+        "FiO2": "55",
+        "PEEP": "9",
+        "PIP": "25",
+        "Time": "7"
+    },
+    {
+        "Tidal_Volume": "593",
+        "Respiratory_Rate": "10",
+        "FiO2": "52",
+        "PEEP": "7",
+        "PIP": "36",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "474",
+        "Respiratory_Rate": "15",
+        "FiO2": "21",
+        "PEEP": "6",
+        "PIP": "23",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "611",
+        "Respiratory_Rate": "14",
+        "FiO2": "59",
+        "PEEP": "6",
+        "PIP": "26",
+        "Time": "3"
+    },
+    {
+        "Tidal_Volume": "552",
+        "Respiratory_Rate": "12",
+        "FiO2": "50",
+        "PEEP": "9",
+        "PIP": "21",
+        "Time": "2"
+    },
+    {
+        "Tidal_Volume": "612",
+        "Respiratory_Rate": "14",
+        "FiO2": "46",
+        "PEEP": "7",
+        "PIP": "39",
+        "Time": "7"
+    },
+    {
+        "Tidal_Volume": "480",
+        "Respiratory_Rate": "13",
+        "FiO2": "47",
+        "PEEP": "8",
+        "PIP": "24",
+        "Time": "3"
+    },
+    {
+        "Tidal_Volume": "348",
+        "Respiratory_Rate": "16",
+        "FiO2": "51",
+        "PEEP": "8",
+        "PIP": "37",
+        "Time": "9"
+    },
+    {
+        "Tidal_Volume": "550",
+        "Respiratory_Rate": "13",
+        "FiO2": "22",
+        "PEEP": "6",
+        "PIP": "31",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "566",
+        "Respiratory_Rate": "13",
+        "FiO2": "55",
+        "PEEP": "5",
+        "PIP": "38",
+        "Time": "7"
+    },
+    {
+        "Tidal_Volume": "577",
+        "Respiratory_Rate": "14",
+        "FiO2": "44",
+        "PEEP": "5",
+        "PIP": "21",
+        "Time": "5"
+    },
+    {
+        "Tidal_Volume": "559",
+        "Respiratory_Rate": "17",
+        "FiO2": "48",
+        "PEEP": "12",
+        "PIP": "25",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "544",
+        "Respiratory_Rate": "6",
+        "FiO2": "48",
+        "PEEP": "5",
+        "PIP": "23",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "527",
+        "Respiratory_Rate": "15",
+        "FiO2": "58",
+        "PEEP": "7",
+        "PIP": "35",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "585",
+        "Respiratory_Rate": "17",
+        "FiO2": "52",
+        "PEEP": "6",
+        "PIP": "36",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "675",
+        "Respiratory_Rate": "19",
+        "FiO2": "42",
+        "PEEP": "9",
+        "PIP": "28",
+        "Time": "3"
+    },
+    {
+        "Tidal_Volume": "452",
+        "Respiratory_Rate": "20",
+        "FiO2": "41",
+        "PEEP": "7",
+        "PIP": "20",
+        "Time": "4"
+    },
+    {
+        "Tidal_Volume": "450",
+        "Respiratory_Rate": "15",
+        "FiO2": "53",
+        "PEEP": "5",
+        "PIP": "21",
+        "Time": "4"
+    },
+    {
+        "Tidal_Volume": "515",
+        "Respiratory_Rate": "14",
+        "FiO2": "30",
+        "PEEP": "7",
+        "PIP": "26",
+        "Time": "8"
+    },
+    {
+        "Tidal_Volume": "593",
+        "Respiratory_Rate": "18",
+        "FiO2": "56",
+        "PEEP": "12",
+        "PIP": "25",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "459",
+        "Respiratory_Rate": "16",
+        "FiO2": "45",
+        "PEEP": "6",
+        "PIP": "28",
+        "Time": "1"
+    },
+    {
+        "Tidal_Volume": "516",
+        "Respiratory_Rate": "16",
+        "FiO2": "54",
+        "PEEP": "13",
+        "PIP": "21",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "530",
+        "Respiratory_Rate": "7",
+        "FiO2": "48",
+        "PEEP": "6",
+        "PIP": "23",
+        "Time": "7"
+    },
+    {
+        "Tidal_Volume": "552",
+        "Respiratory_Rate": "13",
+        "FiO2": "21",
+        "PEEP": "8",
+        "PIP": "27",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "691",
+        "Respiratory_Rate": "13",
+        "FiO2": "44",
+        "PEEP": "5",
+        "PIP": "23",
+        "Time": "3"
+    },
+    {
+        "Tidal_Volume": "496",
+        "Respiratory_Rate": "9",
+        "FiO2": "53",
+        "PEEP": "6",
+        "PIP": "23",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "656",
+        "Respiratory_Rate": "15",
+        "FiO2": "54",
+        "PEEP": "8",
+        "PIP": "20",
+        "Time": "4"
+    },
+    {
+        "Tidal_Volume": "437",
+        "Respiratory_Rate": "17",
+        "FiO2": "41",
+        "PEEP": "5",
+        "PIP": "20",
+        "Time": "5"
+    },
+    {
+        "Tidal_Volume": "531",
+        "Respiratory_Rate": "18",
+        "FiO2": "25",
+        "PEEP": "7",
+        "PIP": "25",
+        "Time": "8"
+    },
+    {
+        "Tidal_Volume": "577",
+        "Respiratory_Rate": "17",
+        "FiO2": "51",
+        "PEEP": "7",
+        "PIP": "20",
+        "Time": "3"
+    },
+    {
+        "Tidal_Volume": "544",
+        "Respiratory_Rate": "16",
+        "FiO2": "50",
+        "PEEP": "6",
+        "PIP": "39",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "646",
+        "Respiratory_Rate": "7",
+        "FiO2": "50",
+        "PEEP": "6",
+        "PIP": "29",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "566",
+        "Respiratory_Rate": "7",
+        "FiO2": "49",
+        "PEEP": "9",
+        "PIP": "20",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "656",
+        "Respiratory_Rate": "18",
+        "FiO2": "49",
+        "PEEP": "5",
+        "PIP": "30",
+        "Time": "2"
+    },
+    {
+        "Tidal_Volume": "554",
+        "Respiratory_Rate": "13",
+        "FiO2": "59",
+        "PEEP": "6",
+        "PIP": "22",
+        "Time": "5"
+    },
+    {
+        "Tidal_Volume": "582",
+        "Respiratory_Rate": "11",
+        "FiO2": "24",
+        "PEEP": "6",
+        "PIP": "25",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "648",
+        "Respiratory_Rate": "15",
+        "FiO2": "46",
+        "PEEP": "15",
+        "PIP": "23",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "670",
+        "Respiratory_Rate": "18",
+        "FiO2": "58",
+        "PEEP": "9",
+        "PIP": "20",
+        "Time": "4"
+    },
+    {
+        "Tidal_Volume": "819",
+        "Respiratory_Rate": "15",
+        "FiO2": "54",
+        "PEEP": "8",
+        "PIP": "24",
+        "Time": "8"
+    },
+    {
+        "Tidal_Volume": "450",
+        "Respiratory_Rate": "18",
+        "FiO2": "46",
+        "PEEP": "6",
+        "PIP": "39",
+        "Time": "9"
+    },
+    {
+        "Tidal_Volume": "444",
+        "Respiratory_Rate": "13",
+        "FiO2": "49",
+        "PEEP": "7",
+        "PIP": "28",
+        "Time": "1"
+    },
+    {
+        "Tidal_Volume": "490",
+        "Respiratory_Rate": "15",
+        "FiO2": "60",
+        "PEEP": "9",
+        "PIP": "22",
+        "Time": "3"
+    },
+    {
+        "Tidal_Volume": "584",
+        "Respiratory_Rate": "10",
+        "FiO2": "30",
+        "PEEP": "7",
+        "PIP": "26",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "621",
+        "Respiratory_Rate": "9",
+        "FiO2": "57",
+        "PEEP": "5",
+        "PIP": "28",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "515",
+        "Respiratory_Rate": "12",
+        "FiO2": "46",
+        "PEEP": "6",
+        "PIP": "28",
+        "Time": "5"
+    },
+    {
+        "Tidal_Volume": "697",
+        "Respiratory_Rate": "12",
+        "FiO2": "51",
+        "PEEP": "15",
+        "PIP": "22",
+        "Time": "8"
+    },
+    {
+        "Tidal_Volume": "471",
+        "Respiratory_Rate": "18",
+        "FiO2": "40",
+        "PEEP": "6",
+        "PIP": "24",
+        "Time": "5"
+    },
+    {
+        "Tidal_Volume": "487",
+        "Respiratory_Rate": "17",
+        "FiO2": "20",
+        "PEEP": "7",
+        "PIP": "24",
+        "Time": "7"
+    },
+    {
+        "Tidal_Volume": "632",
+        "Respiratory_Rate": "15",
+        "FiO2": "55",
+        "PEEP": "15",
+        "PIP": "28",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "534",
+        "Respiratory_Rate": "7",
+        "FiO2": "46",
+        "PEEP": "6",
+        "PIP": "31",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "562",
+        "Respiratory_Rate": "16",
+        "FiO2": "41",
+        "PEEP": "7",
+        "PIP": "24",
+        "Time": "3"
+    },
+    {
+        "Tidal_Volume": "560",
+        "Respiratory_Rate": "6",
+        "FiO2": "50",
+        "PEEP": "7",
+        "PIP": "27",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "582",
+        "Respiratory_Rate": "20",
+        "FiO2": "55",
+        "PEEP": "5",
+        "PIP": "25",
+        "Time": "5"
+    },
+    {
+        "Tidal_Volume": "428",
+        "Respiratory_Rate": "12",
+        "FiO2": "53",
+        "PEEP": "8",
+        "PIP": "25",
+        "Time": "1"
+    },
+    {
+        "Tidal_Volume": "597",
+        "Respiratory_Rate": "19",
+        "FiO2": "28",
+        "PEEP": "5",
+        "PIP": "20",
+        "Time": "9"
+    },
+    {
+        "Tidal_Volume": "581",
+        "Respiratory_Rate": "10",
+        "FiO2": "48",
+        "PEEP": "6",
+        "PIP": "27",
+        "Time": "9"
+    },
+    {
+        "Tidal_Volume": "526",
+        "Respiratory_Rate": "14",
+        "FiO2": "56",
+        "PEEP": "13",
+        "PIP": "26",
+        "Time": "7"
+    },
+    {
+        "Tidal_Volume": "682",
+        "Respiratory_Rate": "7",
+        "FiO2": "55",
+        "PEEP": "8",
+        "PIP": "25",
+        "Time": "8"
+    },
+    {
+        "Tidal_Volume": "586",
+        "Respiratory_Rate": "14",
+        "FiO2": "20",
+        "PEEP": "5",
+        "PIP": "27",
+        "Time": "9"
+    },
+    {
+        "Tidal_Volume": "646",
+        "Respiratory_Rate": "19",
+        "FiO2": "55",
+        "PEEP": "10",
+        "PIP": "20",
+        "Time": "5"
+    },
+    {
+        "Tidal_Volume": "428",
+        "Respiratory_Rate": "16",
+        "FiO2": "59",
+        "PEEP": "5",
+        "PIP": "28",
+        "Time": "5"
+    },
+    {
+        "Tidal_Volume": "453",
+        "Respiratory_Rate": "16",
+        "FiO2": "47",
+        "PEEP": "8",
+        "PIP": "20",
+        "Time": "3"
+    },
+    {
+        "Tidal_Volume": "463",
+        "Respiratory_Rate": "16",
+        "FiO2": "52",
+        "PEEP": "9",
+        "PIP": "40",
+        "Time": "8"
+    },
+    {
+        "Tidal_Volume": "446",
+        "Respiratory_Rate": "12",
+        "FiO2": "61",
+        "PEEP": "6",
+        "PIP": "37",
+        "Time": "7"
+    },
+    {
+        "Tidal_Volume": "467",
+        "Respiratory_Rate": "15",
+        "FiO2": "28",
+        "PEEP": "6",
+        "PIP": "28",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "878",
+        "Respiratory_Rate": "14",
+        "FiO2": "53",
+        "PEEP": "6",
+        "PIP": "25",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "630",
+        "Respiratory_Rate": "11",
+        "FiO2": "46",
+        "PEEP": "8",
+        "PIP": "26",
+        "Time": "7"
+    },
+    {
+        "Tidal_Volume": "437",
+        "Respiratory_Rate": "14",
+        "FiO2": "47",
+        "PEEP": "7",
+        "PIP": "38",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "569",
+        "Respiratory_Rate": "14",
+        "FiO2": "53",
+        "PEEP": "6",
+        "PIP": "40",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "593",
+        "Respiratory_Rate": "16",
+        "FiO2": "28",
+        "PEEP": "6",
+        "PIP": "28",
+        "Time": "8"
+    },
+    {
+        "Tidal_Volume": "570",
+        "Respiratory_Rate": "20",
+        "FiO2": "47",
+        "PEEP": "6",
+        "PIP": "21",
+        "Time": "1"
+    },
+    {
+        "Tidal_Volume": "952",
+        "Respiratory_Rate": "13",
+        "FiO2": "45",
+        "PEEP": "6",
+        "PIP": "28",
+        "Time": "7"
+    },
+    {
+        "Tidal_Volume": "905",
+        "Respiratory_Rate": "15",
+        "FiO2": "52",
+        "PEEP": "6",
+        "PIP": "25",
+        "Time": "9"
+    },
+    {
+        "Tidal_Volume": "658",
+        "Respiratory_Rate": "8",
+        "FiO2": "55",
+        "PEEP": "6",
+        "PIP": "19",
+        "Time": "9"
+    },
+    {
+        "Tidal_Volume": "407",
+        "Respiratory_Rate": "19",
+        "FiO2": "58",
+        "PEEP": "6",
+        "PIP": "22",
+        "Time": "1"
+    },
+    {
+        "Tidal_Volume": "556",
+        "Respiratory_Rate": "19",
+        "FiO2": "47",
+        "PEEP": "7",
+        "PIP": "28",
+        "Time": "3"
+    },
+    {
+        "Tidal_Volume": "498",
+        "Respiratory_Rate": "14",
+        "FiO2": "27",
+        "PEEP": "5",
+        "PIP": "24",
+        "Time": "8"
+    },
+    {
+        "Tidal_Volume": "559",
+        "Respiratory_Rate": "15",
+        "FiO2": "50",
+        "PEEP": "5",
+        "PIP": "29",
+        "Time": "2"
+    },
+    {
+        "Tidal_Volume": "648",
+        "Respiratory_Rate": "17",
+        "FiO2": "56",
+        "PEEP": "10",
+        "PIP": "23",
+        "Time": "4"
+    },
+    {
+        "Tidal_Volume": "612",
+        "Respiratory_Rate": "13",
+        "FiO2": "58",
+        "PEEP": "8",
+        "PIP": "40",
+        "Time": "9"
+    },
+    {
+        "Tidal_Volume": "501",
+        "Respiratory_Rate": "18",
+        "FiO2": "40",
+        "PEEP": "6",
+        "PIP": "26",
+        "Time": "2"
+    },
+    {
+        "Tidal_Volume": "600",
+        "Respiratory_Rate": "17",
+        "FiO2": "57",
+        "PEEP": "13",
+        "PIP": "19",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "510",
+        "Respiratory_Rate": "16",
+        "FiO2": "52",
+        "PEEP": "14",
+        "PIP": "28",
+        "Time": "10"
+    },
+    {
+        "Tidal_Volume": "431",
+        "Respiratory_Rate": "16",
+        "FiO2": "36",
+        "PEEP": "8",
+        "PIP": "37",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "500",
+        "Respiratory_Rate": "13",
+        "FiO2": "43",
+        "PEEP": "12",
+        "PIP": "24",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "555",
+        "Respiratory_Rate": "15",
+        "FiO2": "22",
+        "PEEP": "6",
+        "PIP": "21",
+        "Time": "6"
+    },
+    {
+        "Tidal_Volume": "626",
+        "Respiratory_Rate": "13",
+        "FiO2": "45",
+        "PEEP": "8",
+        "PIP": "22",
+        "Time": "1"
+    }
+]

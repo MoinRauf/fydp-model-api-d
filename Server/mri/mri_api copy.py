@@ -5,21 +5,22 @@ from tensorflow.keras.models import load_model
 import joblib
 import logging
 
-venti_api = Blueprint('venti_api', __name__)
+mri_api = Blueprint('mri_api', __name__)
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Load the trained model
-ventilator_model = load_model('venti/final-ventilator_model.h5')
+mri_model = load_model('mri/final-mri-model.h5')
 logger.info("Model loaded successfully.")
 
 # Load the pre-trained scaler
-scaler = joblib.load('venti/final-scaler.pkl')
+scaler = joblib.load('mri/final-mri-scaler.pkl')
 logger.info("Scaler loaded successfully.")
 
 # Define feature columns
-feature_columns = ['Tidal_Volume', 'Respiratory_Rate', 'FiO2', 'PEEP', 'PIP']
+feature_columns = ['Magnetic_Field_Strength', 'Gradient_Strength', 'RF_Power', 'Pulse_Sequence', 'Scan_Duration']
+
 
 def reshape_input(input_data):
     """Reshape input data for LSTM model."""
@@ -52,7 +53,7 @@ def scale_data(input_data):
 def model_predict(input_data):
     """Make predictions using the loaded model."""
     try:
-        prediction = ventilator_model.predict(input_data)
+        prediction = mri_model.predict(input_data)
         logger.info(f"Model prediction: {prediction}")
         return prediction
     except Exception as e:
@@ -71,7 +72,7 @@ def batch_predict(input_data_list):
             reshape_input(scale_data(preprocess_input(input_data)))
             for input_data in input_data_list
         ])
-        predictions = ventilator_model.predict(np.vstack(reshaped_data))
+        predictions = mri_model.predict(np.vstack(reshaped_data))
         logger.info(f"Batch prediction: {predictions}")
         return [map_prediction_to_label(pred) for pred in predictions]
     except Exception as e:
@@ -94,7 +95,7 @@ def get_impact_level(time_value):
         return "Invalid Time"
 
 # Define your routes
-@venti_api.route('/predict', methods=['POST'])
+@mri_api.route('/predict', methods=['POST'])
 def predict():
     try:
         request_data = request.json
@@ -129,13 +130,8 @@ def predict():
                 impact_level = get_impact_level(input_time)
                 response_data['impact_level'] = impact_level
 
-        print("---------Response sent-venti:-------", response_data)
         return jsonify(response_data)
 
     except Exception as e:
         logger.error(f"Error in /predict endpoint: {e}")
         return jsonify({'error': str(e)})
-
-@venti_api.route('/')
-def home():
-    return 'Venti API is operational and processing requests.'
