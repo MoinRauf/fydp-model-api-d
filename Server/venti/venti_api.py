@@ -35,17 +35,17 @@ def predict():
         label_mapping = {1: 'Malfunction', 0: 'Not malfunction'}
         label_string = label_mapping.get(predicted_label, 'Unknown')
 
-        def analyze_and_store_data(value):
-            pass  
+        # def analyze_and_store_data(value):
+        #     pass  
 
-        thread = threading.Thread(target=analyze_and_store_data, args=(label_string,))
-        thread.start()
+        # thread = threading.Thread(target=analyze_and_store_data, args=(label_string,))
+        # thread.start()
 
-        desired_outcome = feature_set['label']
+        # desired_outcome = feature_set['label']
 
         response = {
-            'prediction': desired_outcome,
-            'parameter': parameter
+            'prediction': label_string
+            # 'parameter': parameter
         }
 
         print("---------Response sent-VENTI:-------", response)
